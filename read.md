@@ -1,0 +1,1 @@
+Here we will practise angular based topics and will build some useful and interesting projects
