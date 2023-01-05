@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test.component.css']
 })
 export class TestComponent implements OnInit {
-
+boxData:any="";
+message:string=""
   constructor() { }
 
   ngOnInit(): void {
+  }
+  handleAction(e:any){
+this.message=e
   }
 
 }
